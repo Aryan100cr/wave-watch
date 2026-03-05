@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the future of timekeeping with Antigravity Watches — gravity-defying design, magnetic levitation technology, and ultra-precision timekeeping.">
+    <title>Antigravity Watches — The Future of Time</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Particle Canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">⌚</span>
+                <span class="logo-text">ANTI<span class="accent">GRAVITY</span></span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#interactive" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle" data-animate="fade-up">REDEFINING TIMEKEEPING</p>
+            <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+                The Future of Time:<br>
+                <span class="gradient-text">Antigravity Watches</span>
+            </h1>
+            <p class="hero-description" data-animate="fade-up" data-delay="200">
+                Where cutting-edge magnetic levitation meets precision engineering.
+                Experience time unbound by gravity — floating, elegant, and impossibly precise.
+            </p>
+            <div class="hero-buttons" data-animate="fade-up" data-delay="300">
+                <a href="#features" class="btn btn-primary">
+                    <span>Explore the Technology</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#gallery" class="btn btn-outline">View Collection</a>
+            </div>
+            <div class="hero-stats" data-animate="fade-up" data-delay="400">
+                <div class="stat">
+                    <span class="stat-number" data-count="0.001">0.001</span><span class="stat-unit">s</span>
+                    <span class="stat-label">Precision Accuracy</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="72">72</span><span class="stat-unit">hr</span>
+                    <span class="stat-label">Power Reserve</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="200">200</span><span class="stat-unit">m</span>
+                    <span class="stat-label">Water Resistance</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-watch" data-animate="fade-in" data-delay="200">
+            <div class="hero-watch-glow"></div>
+            <img src="images/hero-watch.png" alt="Antigravity Watch floating in space" class="hero-watch-img" id="hero-watch-img">
+            <div class="hero-watch-ring"></div>
+        </div>
+        <div class="scroll-indicator" data-animate="fade-up" data-delay="600">
+            <span>Scroll to explore</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-col" data-animate="fade-right">
+                    <div class="about-image-wrapper">
+                        <img src="images/watch-1.png" alt="Antigravity Watch Technology" class="about-img">
+                        <div class="about-image-decoration"></div>
+                        <div class="about-image-badge">
+                            <span class="badge-number">EST.</span>
+                            <span class="badge-year">2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content-col">
+                    <span class="section-tag" data-animate="fade-up">THE CONCEPT</span>
+                    <h2 class="section-title" data-animate="fade-up" data-delay="100">
+                        Defying Gravity,<br><span class="gradient-text">Defining Elegance</span>
+                    </h2>
+                    <p class="about-text" data-animate="fade-up" data-delay="200">
+                        Antigravity watches represent the pinnacle of horological innovation. By harnessing
+                        superconducting magnets and quantum-locked stabilization fields, our timepieces
+                        literally float above your wrist — a mesmerizing fusion of art and physics.
+                    </p>
+                    <p class="about-text" data-animate="fade-up" data-delay="300">
+                        Each watch houses a micro-engineered levitation core that suspends the dial assembly
+                        in a frictionless magnetic field. The result? Zero mechanical wear, perpetual motion,
+                        and timekeeping accuracy measured in microseconds.
+                    </p>
+                    <div class="about-highlights" data-animate="fade-up" data-delay="400">
+                        <div class="highlight">
+                            <div class="highlight-icon">◇</div>
+                            <div>
+                                <h4>Quantum Stabilization</h4>
+                                <p>Flux-pinned superconductors ensure rock-solid levitation</p>
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <div class="highlight-icon">◇</div>
+                            <div>
+                                <h4>Zero-Friction Movement</h4>
+                                <p>No physical contact means no wear — ever</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">TECHNOLOGY</span>
+                <h2 class="section-title">Engineered Beyond <span class="gradient-text">Imagination</span></h2>
+                <p class="section-desc">Four pillars of innovation that make antigravity watches the most advanced timepieces ever created.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-animate="fade-up" data-delay="0">
+                    <div class="feature-icon-wrap">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="24" cy="24" r="18"/><path d="M24 6c-6 8-6 28 0 36M24 6c6 8 6 28 0 36M6 24h36"/></svg>
+                        </div>
+                    </div>
+                    <h3 class="feature-title">Gravity-Defying Design</h3>
+                    <p class="feature-desc">A watch that hovers above the wrist using precisely calibrated magnetic fields, creating a visual spectacle that captivates every onlooker.</p>
+                    <div class="feature-line"></div>
+                </div>
+                <div class="feature-card" data-animate="fade-up" data-delay="100">
+                    <div class="feature-icon-wrap">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M24 4v8M24 36v8M4 24h8M36 24h8"/><circle cx="24" cy="24" r="8"/><circle cx="24" cy="24" r="14"/></svg>
+                        </div>
+                    </div>
+                    <h3 class="feature-title">Magnetic Levitation</h3>
+                    <p class="feature-desc">Superconducting micro-magnets paired with quantum locking create stable, persistent levitation without any power consumption.</p>
+                    <div class="feature-line"></div>
+                </div>
+                <div class="feature-card" data-animate="fade-up" data-delay="200">
+                    <div class="feature-icon-wrap">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="24" cy="24" r="18"/><path d="M24 12v12l8 8"/></svg>
+                        </div>
+                    </div>
+                    <h3 class="feature-title">Ultra-Precision Timekeeping</h3>
+                    <p class="feature-desc">Zero-friction movement eliminates mechanical error. Atomic-sync calibration ensures accuracy to within one thousandth of a second per year.</p>
+                    <div class="feature-line"></div>
+                </div>
+                <div class="feature-card" data-animate="fade-up" data-delay="300">
+                    <div class="feature-icon-wrap">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 40l8-16 8 8 8-20 8 12"/><rect x="6" y="6" width="36" height="36" rx="4"/></svg>
+                        </div>
+                    </div>
+                    <h3 class="feature-title">Futuristic Materials</h3>
+                    <p class="feature-desc">Crafted from graphene-composite alloys and sapphire nanocrystal, delivering extreme durability at a fraction of traditional weight.</p>
+                    <div class="feature-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">COLLECTION</span>
+                <h2 class="section-title">The <span class="gradient-text">Lineup</span></h2>
+                <p class="section-desc">Each piece is a unique expression of antigravity engineering — explore the collection.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-animate="fade-up" data-delay="0">
+                    <div class="gallery-img-wrap">
+                        <img src="images/hero-watch.png" alt="Nebula Series" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="gallery-zoom">⊕</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Nebula Series</h4>
+                        <span class="gallery-price">$12,500</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="100">
+                    <div class="gallery-img-wrap">
+                        <img src="images/watch-1.png" alt="Quantum Elite" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="gallery-zoom">⊕</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Quantum Elite</h4>
+                        <span class="gallery-price">$18,900</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="200">
+                    <div class="gallery-img-wrap">
+                        <img src="images/watch-2.png" alt="Void Chronograph" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="gallery-zoom">⊕</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Void Chronograph</h4>
+                        <span class="gallery-price">$24,750</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="300">
+                    <div class="gallery-img-wrap">
+                        <img src="images/watch-3.png" alt="Horizon Platinum" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="gallery-zoom">⊕</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Horizon Platinum</h4>
+                        <span class="gallery-price">$31,000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lightbox -->
+        <div class="lightbox" id="lightbox">
+            <button class="lightbox-close" id="lightbox-close" aria-label="Close lightbox">&times;</button>
+            <img src="" alt="Watch preview" class="lightbox-img" id="lightbox-img">
+        </div>
+    </section>
+
+    <!-- Interactive Section -->
+    <section id="interactive" class="interactive section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">EXPERIENCE</span>
+                <h2 class="section-title">Feel the <span class="gradient-text">Levitation</span></h2>
+                <p class="section-desc">Move your mouse across the display to interact with the watch — tilt, rotate, and feel the antigravity effect.</p>
+            </div>
+            <div class="interactive-stage" id="interactive-stage" data-animate="fade-up" data-delay="100">
+                <div class="stage-glow" id="stage-glow"></div>
+                <div class="interactive-watch" id="interactive-watch">
+                    <img src="images/watch-2.png" alt="Interactive Antigravity Watch" class="interactive-watch-img">
+                </div>
+                <div class="stage-ring"></div>
+                <div class="stage-ring stage-ring-2"></div>
+                <div class="stage-label">
+                    <span class="stage-label-dot"></span>
+                    Interactive 3D View — Move your cursor
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-content" data-animate="fade-right">
+                    <span class="section-tag">STAY CONNECTED</span>
+                    <h2 class="section-title">Join the <span class="gradient-text">Revolution</span></h2>
+                    <p class="contact-text">
+                        Be the first to experience the future of timekeeping. Subscribe to our newsletter for
+                        exclusive previews, launch updates, and early access to limited editions.
+                    </p>
+                    <div class="contact-perks">
+                        <div class="perk"><span class="perk-icon">✦</span> Early access to new releases</div>
+                        <div class="perk"><span class="perk-icon">✦</span> Exclusive member pricing</div>
+                        <div class="perk"><span class="perk-icon">✦</span> Behind-the-scenes technology insights</div>
+                    </div>
+                </div>
+                <div class="contact-form-wrap" data-animate="fade-left" data-delay="100">
+                    <form class="contact-form" id="contact-form">
+                        <h3 class="form-title">Get Early Access</h3>
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" class="form-input" placeholder="Enter your name" required>
+                            <div class="input-glow"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" class="form-input" placeholder="you@example.com" required>
+                            <div class="input-glow"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+                            <span>Subscribe Now</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </button>
+                        <p class="form-note">We respect your privacy. Unsubscribe anytime.</p>
+                    </form>
+                    <div class="form-success" id="form-success">
+                        <div class="success-icon">✓</div>
+                        <h3>Welcome Aboard!</h3>
+                        <p>You're now on the list for early access.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">
+                        <span class="logo-icon">⌚</span>
+                        <span class="logo-text">ANTI<span class="accent">GRAVITY</span></span>
+                    </a>
+                    <p class="footer-tagline">Redefining the relationship between time and space.</p>
+                </div>
+                <div class="footer-nav">
+                    <div class="footer-col">
+                        <h4>Explore</h4>
+                        <a href="#about">About</a>
+                        <a href="#features">Technology</a>
+                        <a href="#gallery">Collection</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Connect</h4>
+                        <a href="#contact">Newsletter</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter / X</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Antigravity Watches. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
